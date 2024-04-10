@@ -101,6 +101,7 @@ div.login span{
 	padding-left: 11px;
 	color: #1C1C1C;
 }
+
 .presentacion span{
 	background: rgb(229, 9, 20);
 	padding: 22px;
@@ -110,7 +111,7 @@ div.login span{
 	border: solid rgb(229, 9, 20);
 }
 
-.presentacion span:hover{
+.presentacion span:hover, .contPreguntas span:hover{
 	cursor: pointer;
 	background: red;
 }
@@ -231,6 +232,30 @@ div.login span{
 	max-height: 0px;
 	overflow: hidden;
 	transition: all 1s;
+}
+
+.contPreguntas input{
+	height: 60px;
+	width: 465px;
+	margin-top: 20px;
+	margin-bottom: 3px;
+	border-radius: 2px 0px 0px 2px;
+	border: solid 1px #5695e9;
+	padding-left: 11px;
+	color: #1C1C1C;
+}
+
+.contPreguntas span{
+	background: rgb(229, 9, 20);
+	padding: 16px;
+	padding-bottom: 19px;
+	font-weight: 500;
+	margin-left: -5px;
+	border: solid rgb(229, 9, 20);
+}
+
+.contPreguntas h3{
+	font-size: 15px;
 }
 
 /*PREGUNTAS*/
