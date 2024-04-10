@@ -259,3 +259,20 @@ div.login span{
 }
 
 /*PREGUNTAS*/
+
+/*PIE*/
+
+.pieContenido{
+	width:1100px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.pie p{
+	padding: 7px;
+}
+
+.pie .espacio{
+	width: 50px;
+}
