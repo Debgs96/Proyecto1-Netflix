@@ -200,9 +200,16 @@ div.login span{
 	font-size: 20px;
 }
 
-.pregunta, .respuesta{
+.pregunta{
 	background: #303030;
 	padding: 10px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.respuesta{
+	background: #303030;
 	margin-bottom: 5px;
 	margin-top: 5px;
 }
@@ -211,4 +218,19 @@ div.login span{
 	padding: 10px;
 	padding-left: 20px;
 }
+
+.respuesta hr{
+	border: 1px solid #262626;
+}
+
+.pregunta:hover .respuesta{
+	height: 500px;
+}
+
+.respuesta{
+	max-height: 0px;
+	overflow: hidden;
+	transition: all 1s;
+}
+
 /*PREGUNTAS*/
